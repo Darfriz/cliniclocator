@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAE10C"
+    android:backgroundTint="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <!-- About Us Button -->
+
+    <!-- Background Image -->
+
+    <Button
+        android:id="@+id/aboutUsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#673AB7"
+        android:text="About Us"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTitleTextView"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_clinic"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp" />
+
+    <!-- Title TextView - Description -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="325dp"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:background="#673AB7"
+        android:backgroundTint="#C9F4F4F0"
+        android:text="A Clinic Locator app helps users find nearby clinics based on their location. The main function of the app is to utilize maps to trace the route to the selected clinic"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundImageView"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <!-- Title TextView - Welcome Message -->
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="286dp"
+        android:layout_height="34dp"
+        android:layout_centerHorizontal="true"
+        android:background="#673AB7"
+        android:backgroundTint="#80F4F4F0"
+        android:text="Welcome to Clinic Locator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <!-- Home Icon -->
+    <ImageView
+        android:id="@+id/homeIcon"
+        android:layout_width="58dp"
+        android:layout_height="33dp"
+        android:src="@drawable/baseline_home_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="@+id/backgroundImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="MissingConstraints" />
+
+    <!-- Title TextView - Home Title -->
+    <TextView
+        android:id="@+id/homeTitleTextView"
+        android:layout_width="279dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:background="#673AB7"
+        android:backgroundTint="#00F1F0E9"
+        android:text="HOME - CLINIC LOCATOR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

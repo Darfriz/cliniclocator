@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+    <!-- First Clinic -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Clinic Picture -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/clinicdrwan"
+                android:scaleType="centerCrop"/>
+
+            <!-- Clinic Information -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KLINIK DR WAN BALKIS"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="30dp"/>
+
+            <!-- Additional Information -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address: 30, Jalan Simpang 3, Kompleks Kedai PKNEPS, 00000 Kangar., Kangar, Kangar"
+                android:padding="8dp"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/distanceTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance: "
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="30dp"/>
+
+            <!-- Add more information as needed -->
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Second Clinic -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Clinic Picture -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/mediklinik"
+                android:scaleType="centerCrop"/>
+
+            <!-- Clinic Information -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MEDIKLINIK PUTRA KANGAR"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="30dp"/>
+
+            <!-- Additional Information -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address: Second Clinic Address, City"
+                android:padding="8dp"
+                android:textColor="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/distanceTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance: "
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="30dp"/>
+            <!-- Add more information as needed -->
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+            <!-- Third Clinic -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Clinic Picture -->
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/clinicdrhaji"
+                        android:scaleType="centerCrop"/>
+
+                    <!-- Clinic Information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="KLINIK DR HJ OTHMAN"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:padding="8dp"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="30dp"/>
+
+                    <!-- Additional Information -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address: 2, Jalan Utama Indah, Taman Utama Indah, 01000 Kangar, Perlis"
+                        android:padding="8dp"
+                        android:textColor="@android:color/darker_gray"/>
+
+                    <TextView
+                        android:id="@+id/distanceTextView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Distance: "
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="30dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        <!-- Fourth Clinic -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Clinic Picture -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/clinicqualitas"
+                    android:scaleType="centerCrop"/>
+
+                <!-- Clinic Information -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="QUALITAS HEALTH CLINIC MENON"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="30dp"/>
+
+                <!-- Additional Information -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: 4-B, Jalan Raja Syed Alwi, Pusat Bandar Kangar, 01000 Kangar, Perlis"
+                    android:padding="8dp"
+                    android:textColor="@android:color/darker_gray"/>
+
+                <TextView
+                    android:id="@+id/distanceTextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: "
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="30dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Fifth Clinic -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Clinic Picture -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/clinicunimap"
+                    android:scaleType="centerCrop"/>
+
+                <!-- Clinic Information -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="UniMAPCARE Clinic"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="30dp"/>
+
+                <!-- Additional Information -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Address: No. 1, Blok E, Aras Bawah, Pusat Perniagaan Pengkalan Jaya, Jalan Kangar - Alor Setar, Taman Pengkalan Asam, 01000 Kangar, Perlis"
+                    android:padding="8dp"
+                    android:textColor="@android:color/darker_gray"/>
+
+                <TextView
+                    android:id="@+id/distanceTextView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distance: "
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="30dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

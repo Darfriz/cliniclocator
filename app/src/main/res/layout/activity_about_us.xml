@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".AboutUsActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/aklogo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proudly Developed by:"
+        android:textSize="16sp"
+        android:textColor="#555"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" MUHAMMAD AIMAN SOLIHIN BIN ABD GHANI \n (Group Leader and Technical Writer)"
+        android:textSize="16sp"
+        android:textColor="#555"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUHAMMAD ALIFF NAJMI BIN MAT SAAD \n (Mobile App Main Developer and UI Designer)"
+        android:textSize="16sp"
+        android:textColor="#555"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUHAMMAD IKHWAN BIN MOHD RODZI \n (Web App Developer)"
+        android:textSize="16sp"
+        android:textColor="#555"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUHAMMAD AMRAN BIN ZAKARIA \n (Mobile App Home Page Developer)"
+        android:textSize="16sp"
+        android:textColor="#555"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOHD AL AMIN BIN MOHAMED ABU BAKAR \n (Mobile App Code Debugger)"
+        android:textSize="16sp"
+        android:textColor="#555"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AFIQ HAIKAL BIN MOHD ASRI \n (Mobile App UX Designer)"
+        android:textSize="16sp"
+        android:textColor="#555"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copyright © 2024 Clinic Locator"
+        android:textSize="14sp"
+        android:textColor="#777"
+        android:layout_marginTop="30dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ICT650 Group Project - RCS2515A"
+        android:textSize="14sp"
+        android:textColor="#777"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/urlTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit our Github"
+        android:textSize="14sp"
+        android:textColor="#4285F4"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:onClick="openUrl" />
+
+</LinearLayout>
