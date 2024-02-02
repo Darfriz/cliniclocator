@@ -26,7 +26,7 @@ public class AboutUsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Open the GitHub URL in a browser
-                openUrl("https://github.com/Darfriz/cliniclocator/tree/main");
+                openUrl("https://github.com/Darfriz/cliniclocator");
             }
         });
     }
