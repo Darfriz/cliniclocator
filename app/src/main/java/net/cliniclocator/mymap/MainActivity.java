@@ -1,4 +1,4 @@
-package net.hafiz.mymap;
+package net.cliniclocator.mymap;
 
 import android.Manifest;
 import android.app.Dialog;
@@ -29,6 +29,7 @@ import androidx.fragment.app.FragmentTransaction;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import net.cliniclocator.mymap.MapsFragment;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -61,16 +62,16 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
             switch (item.getItemId()) {
                 case R.id.home:
-                    replaceFragment(new HomeFragment());
+                    replaceFragment(new net.cliniclocator.mymap.HomeFragment());
                     break;
                 case R.id.maps:
-                    replaceFragment(new MapsFragment());
+                    replaceFragment(new net.cliniclocator.mymap.MapsFragment());
                     break;
                 case R.id.clinics:
-                    replaceFragment(new ClinicsFragment());
+                    replaceFragment(new net.cliniclocator.mymap.ClinicsFragment());
                     break;
                 case R.id.account:
-                    replaceFragment(new AccountFragment());
+                    replaceFragment(new net.cliniclocator.mymap.AccountFragment());
                     break;
             }
             return true;

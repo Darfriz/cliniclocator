@@ -1,4 +1,4 @@
-package net.hafiz.mymap;
+package net.cliniclocator.mymap;
 import android.content.Context;
 
 import android.content.SharedPreferences;
@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 import androidx.fragment.app.Fragment;
-import net.hafiz.mymap.R;
+import net.cliniclocator.mymap.R;
 
 public class AccountFragment extends Fragment {
 

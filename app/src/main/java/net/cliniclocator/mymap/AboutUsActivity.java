@@ -1,4 +1,4 @@
-package net.hafiz.mymap;
+package net.cliniclocator.mymap;
 
 import android.content.Intent;
 import android.net.Uri;

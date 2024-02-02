@@ -1,4 +1,4 @@
-package net.hafiz.mymap;
+package net.cliniclocator.mymap;
 
 import android.Manifest;
 import android.content.pm.PackageManager;

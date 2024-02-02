@@ -6,7 +6,7 @@ android {
     compileSdkVersion 34
 
     defaultConfig {
-        applicationId "net.hafiz.mymap"
+        applicationId "net.cliniclocator.mymap"
         minSdkVersion 23
         targetSdkVersion 34
         versionCode 1
@@ -28,7 +28,7 @@ android {
     buildFeatures {
         viewBinding true
     }
-    namespace 'net.hafiz.mymap'
+    namespace 'net.cliniclocator.mymap'
 }
 
 dependencies {

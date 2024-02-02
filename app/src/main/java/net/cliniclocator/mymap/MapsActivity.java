@@ -1,4 +1,4 @@
-package net.hafiz.mymap;
+package net.cliniclocator.mymap;
 
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -18,7 +18,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import net.hafiz.mymap.databinding.ActivityMapsBinding;
+import net.cliniclocator.mymap.databinding.ActivityMapsBinding;
 
 import java.util.HashMap;
 import java.util.TreeMap;
@@ -126,12 +126,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 == PackageManager.PERMISSION_GRANTED) {
             if (mMap != null) {
                 mMap.setMyLocationEnabled(true);
-                Log.d("hafizxx","permission granted");
+                Log.d("Clinic Locator","permission granted");
             }
         } else {
             // Permission to access the location is missing. Show rationale and request permission
 
-            Log.d("hafizxx","permission denied");
+            Log.d("Clinic Locator","permission denied");
             ActivityCompat.requestPermissions(this,perms ,200);
 
         }
